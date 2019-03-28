@@ -1,0 +1,16 @@
+Primul pattern!
+mari
+Lore ipsum dolor sit amet, consectetur adipiscing elit.
+Cras dictum nulla id eros imperdiet imperdiet. Nunc pharetra nibh vel ligula viverra sodales. Pellentesque in aliquam orci.
+Morbi non fermentum sem, sit amet mattis mauris. Aliquam consequat lorem massa, eget tempus ipsum feugiat vel. Maecenas venenatis nibh ac magna accumsan, nec aliquet dui posuere.
+Nam eros sapien, hendrerit nec tellus at, faucibus auctor quam. Morbi et arcu sit amet quam ullamcorper bibendum ut mattis justo.
+Phasellus nisl sem, blandit nec commodo sed, cursus in quam.
+Etiam ac felis ac ipsum vestibulum interdum.
+Quisque sodales porttitor purus in interdum. Aenean sagittis purus congue, luctus lorem facilisis, porta nisi.
+Aliquam hendrerit finibus felis, tempor faucibus lorem dictum eget. Morbi dapibus eros elit, posuere aliquam libero sodales vel.
+Maecenas tortor ligula, tincidunt nec semper ac, commodo ac libero.
+Nam pretium odio quis aliquet tempus.
+Pellentesque iaculis, neque dictum pharetra consequat, sem velit congue dolor, in sagittis libero elit vel sapien.
+Morbi in metus erat.
+Proin non dui ut quam sagittis fringilla in eget nisi.
+Vivamus interdum sit amet leo at ultrices. Quisque neque nibh, tincidunt in elementum sed, imperdiet ut nunc.

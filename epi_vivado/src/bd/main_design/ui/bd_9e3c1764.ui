@@ -1,0 +1,53 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y -250 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y -230 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 2 -y 220 -defaultsOSRD
+preplace inst axi_dma -pg 1 -lvl 3 -y -290 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -y -10 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -y 0 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 4 -y 50 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 3 -y 0 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 4 -y -280 -defaultsOSRD
+preplace inst inspection_unit_0 -pg 1 -lvl 1 -y 220 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -y -170 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 2 3 1010J -150 1430 -130 1740
+preplace netloc inspection_unit_0_debug_search_ready 1 1 1 N
+preplace netloc inspection_unit_0_debug_tready 1 1 1 N
+preplace netloc inspection_unit_0_debug_tdata 1 1 1 N
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 2 990J -160 1400
+preplace netloc inspection_unit_0_debug_tvalid 1 1 1 N
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 4 0 -300 NJ -300 970J -170 1440
+preplace netloc inspection_unit_0_debug_tlast 1 1 1 N
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 1 980
+preplace netloc axi_mem_intercon_M00_AXI 1 1 4 460 -430 NJ -430 NJ -430 1740
+preplace netloc inspection_unit_0_m_axis 1 1 2 430 -320 NJ
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 3 1020 190 NJ 190 1740
+preplace netloc inspection_unit_0_debug_start_search 1 1 1 N
+preplace netloc processing_system7_0_FCLK_RESET1_N 1 0 3 20 -310 NJ -310 950
+preplace netloc xlconcat_0_dout 1 1 2 470 -290 940
+preplace netloc axi_dma_mm2s_introut 1 1 3 470 370 NJ 370 1370
+preplace netloc processing_system7_0_FIXED_IO 1 2 3 980J -140 1380 -120 1750
+preplace netloc axi_dma_M_AXI_MM2S 1 3 1 N
+preplace netloc axi_dma_M_AXI_S2MM 1 3 1 1400
+preplace netloc axi_dma_M_AXIS_MM2S 1 0 4 -10 -450 NJ -450 NJ -450 1390
+preplace netloc inspection_unit_0_debug_state 1 1 1 N
+preplace netloc inspection_unit_0_debug_data 1 1 1 N
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 2 20 370 420
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 10 -110 440 70 1000 -410 1410
+preplace netloc ps7_0_axi_periph_M00_AXI 1 0 5 -10 380 NJ 380 NJ 380 NJ 380 1750
+preplace netloc inspection_unit_0_debug_engine_match 1 1 1 N
+preplace netloc processing_system7_0_FCLK_CLK1 1 0 3 -20 -330 NJ -330 960
+preplace netloc axi_dma_s2mm_introut 1 1 3 450 -440 NJ -440 1380
+preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 3 1 1420
+levelinfo -pg 1 -40 230 710 1200 1590 1800 -top -470 -bot 390
+",
+}
+{
+   da_axi4_cnt: "19",
+   da_axi4_s2mm_cnt: "3",
+   da_clkrst_cnt: "12",
+   da_ps7_cnt: "3",
+}
