@@ -32,3 +32,7 @@ Contains common definiotions for both epi_app and epi_driver.
 
 ## files
 Contains generated files, usefull to run the project without any compile.
+
+# Contact
+Marius-Cristian ANDREI
+e-mail: cristyhj91@gmail.com
