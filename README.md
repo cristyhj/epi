@@ -24,7 +24,10 @@ Contains:
 - engine.c 			(functions communicating with the engine)
 - uart_connect.c 	(functions communicating with hosts computers via UART)
 
-### pc/include
+## pc/epi_siem
+The Windows SIEM application interface.
+
+## pc/include
 Contains common definiotions for both epi_app and epi_driver.
 
 ## files
