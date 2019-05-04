@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../packet_analyzer_core.srcs/sources_1/new/axi_lite_if.v" \
+"../../../../packet_analyzer_core.srcs/sources_1/new/inspection_unit.v" \
+"../../../../packet_analyzer_core.srcs/sources_1/new/axi_lite_master_if.v" \
+"../../../../packet_analyzer_core.srcs/sources_1/new/engine.v" \
+"../../../../packet_analyzer_core.srcs/sim_1/new/pu_requests.v" \
+"../../../../packet_analyzer_core.srcs/sim_1/new/system_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,24 @@
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2018.1/bin/unwrapped/lnx64.o/xelab -wto 8b4890eda9d04e37881a678f6dda11d3 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/media/stuff/D/Master/Disertatie/Projects/packet_analyzer_core/packet_analyzer_core.srcs/sources_1/new/axi_lite_if.v" Line 11. Module axi_lite_if(C_S_SLV_ALWAYS_RDY=1'b1) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_memory_sdpram(MEMORY_SIZE=16...
+Compiling module xpm.xpm_memory_base(WRITE_DATA_WIDTH...
+Compiling module xpm.xpm_memory_tdpram(WRITE_DATA_WID...
+Compiling module xil_defaultlib.engine_default
+Compiling module xil_defaultlib.axi_lite_if(C_S_SLV_ALWAYS_RDY=1...
+Compiling module xpm.xpm_cdc_single(DEST_SYNC_FF=2)
+Compiling module xil_defaultlib.inspection_unit(ADDR_WIDTH=32)
+Compiling module xil_defaultlib.pu_requests(TCQ=1,TRANSACTION_FI...
+Compiling module xil_defaultlib.axi_lite_master_if(TCQ=1)
+Compiling module xil_defaultlib.system_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot system_tb_behav

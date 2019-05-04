@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/stuff/D/Master/Disertatie/Projects/packet_analyzer_core/packet_analyzer_core.srcs/sources_1/new/axi_lite_if.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_if
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/stuff/D/Master/Disertatie/Projects/packet_analyzer_core/packet_analyzer_core.srcs/sources_1/new/inspection_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inspection_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/stuff/D/Master/Disertatie/Projects/packet_analyzer_core/packet_analyzer_core.srcs/sources_1/new/axi_lite_master_if.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_master_if
+INFO: [VRFC 10-2458] undeclared symbol WRITE_BRESP, assumed default net type wire [/media/stuff/D/Master/Disertatie/Projects/packet_analyzer_core/packet_analyzer_core.srcs/sources_1/new/axi_lite_master_if.v:258]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/stuff/D/Master/Disertatie/Projects/packet_analyzer_core/packet_analyzer_core.srcs/sources_1/new/engine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module engine
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/stuff/D/Master/Disertatie/Projects/packet_analyzer_core/packet_analyzer_core.srcs/sim_1/new/pu_requests.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pu_requests
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/stuff/D/Master/Disertatie/Projects/packet_analyzer_core/packet_analyzer_core.srcs/sim_1/new/system_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system_tb

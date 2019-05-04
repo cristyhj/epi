@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="system_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="system_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1058800000fs"></ZoomStartTime>
+      <ZoomEndTime time="1197700001fs"></ZoomEndTime>
+      <Cursor1Time time="1097000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="298"></NameColumnWidth>
+      <ValueColumnWidth column_width="132"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="214" />
+   <wvobject type="array" fp_name="/system_tb/PIC_LITE_AWADDR">
+      <obj_property name="ElementShortName">PIC_LITE_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PIC_LITE_AWADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_LITE_WDATA">
+      <obj_property name="ElementShortName">PIC_LITE_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PIC_LITE_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_LITE_ARADDR">
+      <obj_property name="ElementShortName">PIC_LITE_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PIC_LITE_ARADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_LITE_RDATA">
+      <obj_property name="ElementShortName">PIC_LITE_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PIC_LITE_RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_LITE_START_WRITE">
+      <obj_property name="ElementShortName">PIC_LITE_START_WRITE</obj_property>
+      <obj_property name="ObjectShortName">PIC_LITE_START_WRITE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_LITE_START_READ">
+      <obj_property name="ElementShortName">PIC_LITE_START_READ</obj_property>
+      <obj_property name="ObjectShortName">PIC_LITE_START_READ</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_LITE_WCOMPLETE">
+      <obj_property name="ElementShortName">PIC_LITE_WCOMPLETE</obj_property>
+      <obj_property name="ObjectShortName">PIC_LITE_WCOMPLETE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_LITE_WRITE_RESP_ERROR">
+      <obj_property name="ElementShortName">PIC_LITE_WRITE_RESP_ERROR</obj_property>
+      <obj_property name="ObjectShortName">PIC_LITE_WRITE_RESP_ERROR</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_LITE_READ_RESP_ERROR">
+      <obj_property name="ElementShortName">PIC_LITE_READ_RESP_ERROR</obj_property>
+      <obj_property name="ObjectShortName">PIC_LITE_READ_RESP_ERROR</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_LITE_RCOMPLETE">
+      <obj_property name="ElementShortName">PIC_LITE_RCOMPLETE</obj_property>
+      <obj_property name="ObjectShortName">PIC_LITE_RCOMPLETE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/ENG_ADDR_SIZE">
+      <obj_property name="ElementShortName">ENG_ADDR_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ENG_ADDR_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/ENG_NR_ADDR">
+      <obj_property name="ElementShortName">ENG_NR_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ENG_NR_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/AXI_CLK">
+      <obj_property name="ElementShortName">AXI_CLK</obj_property>
+      <obj_property name="ObjectShortName">AXI_CLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/AXI_ARESETN">
+      <obj_property name="ElementShortName">AXI_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">AXI_ARESETN</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/pic_lite_state">
+      <obj_property name="ElementShortName">pic_lite_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pic_lite_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/start_write">
+      <obj_property name="ElementShortName">start_write</obj_property>
+      <obj_property name="ObjectShortName">start_write</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/write_done">
+      <obj_property name="ElementShortName">write_done</obj_property>
+      <obj_property name="ObjectShortName">write_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/start_read">
+      <obj_property name="ElementShortName">start_read</obj_property>
+      <obj_property name="ObjectShortName">start_read</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/read_done">
+      <obj_property name="ElementShortName">read_done</obj_property>
+      <obj_property name="ObjectShortName">read_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider469" type="divider">
+      <obj_property name="label">Inspection Unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/axis_aresetn">
+      <obj_property name="ElementShortName">axis_aresetn</obj_property>
+      <obj_property name="ObjectShortName">axis_aresetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/axis_clk">
+      <obj_property name="ElementShortName">axis_clk</obj_property>
+      <obj_property name="ObjectShortName">axis_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/m_axis_tdata">
+      <obj_property name="ElementShortName">m_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/m_axis_tkeep">
+      <obj_property name="ElementShortName">m_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/m_axis_tlast">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/m_axis_tready">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/m_axis_tvalid">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/engine_aresetn">
+      <obj_property name="ElementShortName">engine_aresetn</obj_property>
+      <obj_property name="ObjectShortName">engine_aresetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/engine_clock">
+      <obj_property name="ElementShortName">engine_clock</obj_property>
+      <obj_property name="ObjectShortName">engine_clock</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/slv_rdata">
+      <obj_property name="ElementShortName">slv_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/slv_araddr">
+      <obj_property name="ElementShortName">slv_araddr[29:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_araddr[29:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/slv_rden">
+      <obj_property name="ElementShortName">slv_rden</obj_property>
+      <obj_property name="ObjectShortName">slv_rden</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/slv_wdata">
+      <obj_property name="ElementShortName">slv_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/slv_awaddr">
+      <obj_property name="ElementShortName">slv_awaddr[29:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_awaddr[29:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/slv_wren">
+      <obj_property name="ElementShortName">slv_wren</obj_property>
+      <obj_property name="ObjectShortName">slv_wren</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/slv_wstrb">
+      <obj_property name="ElementShortName">slv_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/slv_rdy">
+      <obj_property name="ElementShortName">slv_rdy</obj_property>
+      <obj_property name="ObjectShortName">slv_rdy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/slv_rdvalid">
+      <obj_property name="ElementShortName">slv_rdvalid</obj_property>
+      <obj_property name="ObjectShortName">slv_rdvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/ENG_WDATA">
+      <obj_property name="ElementShortName">ENG_WDATA[0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">ENG_WDATA[0:15][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/ENG_WADDR">
+      <obj_property name="ElementShortName">ENG_WADDR[0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">ENG_WADDR[0:15][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/ENG_WEN">
+      <obj_property name="ElementShortName">ENG_WEN[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ENG_WEN[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/ENG_RDATA">
+      <obj_property name="ElementShortName">ENG_RDATA[0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">ENG_RDATA[0:15][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/ENG_RADDR">
+      <obj_property name="ElementShortName">ENG_RADDR[0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">ENG_RADDR[0:15][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/ENG_REN">
+      <obj_property name="ElementShortName">ENG_REN[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ENG_REN[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/engine_match">
+      <obj_property name="ElementShortName">engine_match[15:0]</obj_property>
+      <obj_property name="ObjectShortName">engine_match[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/AXI_ARESETN">
+      <obj_property name="ElementShortName">AXI_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">AXI_ARESETN</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/AXI_CLK">
+      <obj_property name="ElementShortName">AXI_CLK</obj_property>
+      <obj_property name="ObjectShortName">AXI_CLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/AXI_CLK">
+      <obj_property name="ElementShortName">AXI_CLK</obj_property>
+      <obj_property name="ObjectShortName">AXI_CLK</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/al_state">
+      <obj_property name="ElementShortName">al_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">al_state[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/start_operation">
+      <obj_property name="ElementShortName">start_operation</obj_property>
+      <obj_property name="ObjectShortName">start_operation</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/al_op_fin">
+      <obj_property name="ElementShortName">al_op_fin</obj_property>
+      <obj_property name="ObjectShortName">al_op_fin</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/engine_clock">
+      <obj_property name="ElementShortName">engine_clock</obj_property>
+      <obj_property name="ObjectShortName">engine_clock</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/eng_alite_state">
+      <obj_property name="ElementShortName">eng_alite_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">eng_alite_state[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/eng_slv_rdata">
+      <obj_property name="ElementShortName">eng_slv_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">eng_slv_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/transfer_to_eng_counter">
+      <obj_property name="ElementShortName">transfer_to_eng_counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">transfer_to_eng_counter[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/eng_start_operation">
+      <obj_property name="ElementShortName">eng_start_operation</obj_property>
+      <obj_property name="ObjectShortName">eng_start_operation</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/eng_al_op_fin">
+      <obj_property name="ElementShortName">eng_al_op_fin</obj_property>
+      <obj_property name="ObjectShortName">eng_al_op_fin</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/eng_slv_wren">
+      <obj_property name="ElementShortName">eng_slv_wren</obj_property>
+      <obj_property name="ObjectShortName">eng_slv_wren</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/eng_slv_rden">
+      <obj_property name="ElementShortName">eng_slv_rden</obj_property>
+      <obj_property name="ObjectShortName">eng_slv_rden</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/transfer_to_eng_counter">
+      <obj_property name="ElementShortName">transfer_to_eng_counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">transfer_to_eng_counter[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/eng_data_transfer">
+      <obj_property name="ElementShortName">eng_data_transfer[31:0]</obj_property>
+      <obj_property name="ObjectShortName">eng_data_transfer[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/_mem_addra">
+      <obj_property name="ElementShortName">_mem_addra[8:0]</obj_property>
+      <obj_property name="ObjectShortName">_mem_addra[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/_mem_dina">
+      <obj_property name="ElementShortName">_mem_dina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">_mem_dina[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/_mem_wea">
+      <obj_property name="ElementShortName">_mem_wea</obj_property>
+      <obj_property name="ObjectShortName">_mem_wea</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/_mem_addrb">
+      <obj_property name="ElementShortName">_mem_addrb[10:0]</obj_property>
+      <obj_property name="ObjectShortName">_mem_addrb[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/rec_counter">
+      <obj_property name="ElementShortName">rec_counter[10:0]</obj_property>
+      <obj_property name="ObjectShortName">rec_counter[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/_mem_doutb">
+      <obj_property name="ElementShortName">_mem_doutb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">_mem_doutb[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/start_search">
+      <obj_property name="ElementShortName">start_search</obj_property>
+      <obj_property name="ObjectShortName">start_search</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/packet_received">
+      <obj_property name="ElementShortName">packet_received</obj_property>
+      <obj_property name="ObjectShortName">packet_received</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/search_ready">
+      <obj_property name="ElementShortName">search_ready</obj_property>
+      <obj_property name="ObjectShortName">search_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/axis_clk">
+      <obj_property name="ElementShortName">axis_clk</obj_property>
+      <obj_property name="ObjectShortName">axis_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/s_axis_tdata">
+      <obj_property name="ElementShortName">s_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/s_axis_tkeep">
+      <obj_property name="ElementShortName">s_axis_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/s_axis_tlast">
+      <obj_property name="ElementShortName">s_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/s_axis_tready">
+      <obj_property name="ElementShortName">s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/s_axis_tvalid">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/configuration_register">
+      <obj_property name="ElementShortName">configuration_register[31:0]</obj_property>
+      <obj_property name="ObjectShortName">configuration_register[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/state">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/rec_counter">
+      <obj_property name="ElementShortName">rec_counter[10:0]</obj_property>
+      <obj_property name="ObjectShortName">rec_counter[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/engine_clock">
+      <obj_property name="ElementShortName">engine_clock</obj_property>
+      <obj_property name="ObjectShortName">engine_clock</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/m_axis_eng_tdata">
+      <obj_property name="ElementShortName">m_axis_eng_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_eng_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/m_axis_eng_tvalid">
+      <obj_property name="ElementShortName">m_axis_eng_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_eng_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/m_axis_eng_tlast">
+      <obj_property name="ElementShortName">m_axis_eng_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_eng_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/_mem_addrb">
+      <obj_property name="ElementShortName">_mem_addrb[10:0]</obj_property>
+      <obj_property name="ObjectShortName">_mem_addrb[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/_mem_doutb">
+      <obj_property name="ElementShortName">_mem_doutb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">_mem_doutb[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/broadcast_state">
+      <obj_property name="ElementShortName">broadcast_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">broadcast_state[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/last_transfer">
+      <obj_property name="ElementShortName">last_transfer</obj_property>
+      <obj_property name="ObjectShortName">last_transfer</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/eng_start_search">
+      <obj_property name="ElementShortName">eng_start_search</obj_property>
+      <obj_property name="ObjectShortName">eng_start_search</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/eng_packet_received">
+      <obj_property name="ElementShortName">eng_packet_received</obj_property>
+      <obj_property name="ObjectShortName">eng_packet_received</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/eng_search_ready">
+      <obj_property name="ElementShortName">eng_search_ready</obj_property>
+      <obj_property name="ObjectShortName">eng_search_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider470" type="divider">
+      <obj_property name="label">Engine 0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /CLOCK">
+      <obj_property name="ElementShortName">CLOCK</obj_property>
+      <obj_property name="ObjectShortName">CLOCK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /RESETN">
+      <obj_property name="ElementShortName">RESETN</obj_property>
+      <obj_property name="ObjectShortName">RESETN</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /WDATA">
+      <obj_property name="ElementShortName">WDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">WDATA[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /WADDR">
+      <obj_property name="ElementShortName">WADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">WADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /WEN">
+      <obj_property name="ElementShortName">WEN</obj_property>
+      <obj_property name="ObjectShortName">WEN</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /RDATA">
+      <obj_property name="ElementShortName">RDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /RADDR">
+      <obj_property name="ElementShortName">RADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /REN">
+      <obj_property name="ElementShortName">REN</obj_property>
+      <obj_property name="ObjectShortName">REN</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /PATTERN_FOUNDED">
+      <obj_property name="ElementShortName">PATTERN_FOUNDED</obj_property>
+      <obj_property name="ObjectShortName">PATTERN_FOUNDED</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /ram_addra">
+      <obj_property name="ElementShortName">ram_addra[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addra[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /_ram_addra">
+      <obj_property name="ElementShortName">_ram_addra[7:0]</obj_property>
+      <obj_property name="ObjectShortName">_ram_addra[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /_ram_dina">
+      <obj_property name="ElementShortName">_ram_dina[7:0]</obj_property>
+      <obj_property name="ObjectShortName">_ram_dina[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /_ram_wea">
+      <obj_property name="ElementShortName">_ram_wea</obj_property>
+      <obj_property name="ObjectShortName">_ram_wea</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /_ram_addrb">
+      <obj_property name="ElementShortName">_ram_addrb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">_ram_addrb[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /_ram_doutb">
+      <obj_property name="ElementShortName">_ram_doutb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">_ram_doutb[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /config_reg">
+      <obj_property name="ElementShortName">config_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">config_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /pattern_lenght">
+      <obj_property name="ElementShortName">pattern_lenght[16:0]</obj_property>
+      <obj_property name="ObjectShortName">pattern_lenght[16:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /engine_enabled">
+      <obj_property name="ElementShortName">engine_enabled</obj_property>
+      <obj_property name="ObjectShortName">engine_enabled</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /src_in_progress">
+      <obj_property name="ElementShortName">src_in_progress</obj_property>
+      <obj_property name="ObjectShortName">src_in_progress</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /CLOCK">
+      <obj_property name="ElementShortName">CLOCK</obj_property>
+      <obj_property name="ObjectShortName">CLOCK</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /s_axis_tdata">
+      <obj_property name="ElementShortName">s_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /s_axis_tvalid">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /transfer_active">
+      <obj_property name="ElementShortName">transfer_active</obj_property>
+      <obj_property name="ObjectShortName">transfer_active</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /_ram_douta">
+      <obj_property name="ElementShortName">_ram_douta[7:0]</obj_property>
+      <obj_property name="ObjectShortName">_ram_douta[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /back_value">
+      <obj_property name="ElementShortName">back_value[7:0]</obj_property>
+      <obj_property name="ObjectShortName">back_value[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /start_value">
+      <obj_property name="ElementShortName">start_value[7:0]</obj_property>
+      <obj_property name="ObjectShortName">start_value[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /CLOCK">
+      <obj_property name="ElementShortName">CLOCK</obj_property>
+      <obj_property name="ObjectShortName">CLOCK</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /sm_state">
+      <obj_property name="ElementShortName">sm_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sm_state[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /ADDR_SIZE">
+      <obj_property name="ElementShortName">ADDR_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /TCQ">
+      <obj_property name="ElementShortName">TCQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TCQ[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /DATA_SIZE">
+      <obj_property name="ElementShortName">DATA_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /MEMORY_SIZE">
+      <obj_property name="ElementShortName">MEMORY_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMORY_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /MAX_PATTERN_LEN">
+      <obj_property name="ElementShortName">MAX_PATTERN_LEN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_PATTERN_LEN[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /START_ADDRESS">
+      <obj_property name="ElementShortName">START_ADDRESS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">START_ADDRESS[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /ADDRESS_INCREMENT">
+      <obj_property name="ElementShortName">ADDRESS_INCREMENT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDRESS_INCREMENT[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /config_regb0_addr">
+      <obj_property name="ElementShortName">config_regb0_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">config_regb0_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /config_regb1_addr">
+      <obj_property name="ElementShortName">config_regb1_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">config_regb1_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /config_regb2_addr">
+      <obj_property name="ElementShortName">config_regb2_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">config_regb2_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /config_regb3_addr">
+      <obj_property name="ElementShortName">config_regb3_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">config_regb3_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /start_val_addr">
+      <obj_property name="ElementShortName">start_val_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">start_val_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[0].ENGINE_inst /SEARCH_PATTERN">
+      <obj_property name="ElementShortName">SEARCH_PATTERN[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SEARCH_PATTERN[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider247" type="divider">
+      <obj_property name="label">Engine 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /RESETN">
+      <obj_property name="ElementShortName">RESETN</obj_property>
+      <obj_property name="ObjectShortName">RESETN</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /WDATA">
+      <obj_property name="ElementShortName">WDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">WDATA[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /WADDR">
+      <obj_property name="ElementShortName">WADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">WADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /WEN">
+      <obj_property name="ElementShortName">WEN</obj_property>
+      <obj_property name="ObjectShortName">WEN</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /RDATA">
+      <obj_property name="ElementShortName">RDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /RADDR">
+      <obj_property name="ElementShortName">RADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /REN">
+      <obj_property name="ElementShortName">REN</obj_property>
+      <obj_property name="ObjectShortName">REN</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /CLOCK">
+      <obj_property name="ElementShortName">CLOCK</obj_property>
+      <obj_property name="ObjectShortName">CLOCK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /s_axis_tvalid">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /s_axis_tdata">
+      <obj_property name="ElementShortName">s_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /ram_addra">
+      <obj_property name="ElementShortName">ram_addra[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addra[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /_ram_douta">
+      <obj_property name="ElementShortName">_ram_douta[7:0]</obj_property>
+      <obj_property name="ObjectShortName">_ram_douta[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /_ram_addrb">
+      <obj_property name="ElementShortName">_ram_addrb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">_ram_addrb[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /_ram_doutb">
+      <obj_property name="ElementShortName">_ram_doutb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">_ram_doutb[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /back_value">
+      <obj_property name="ElementShortName">back_value[7:0]</obj_property>
+      <obj_property name="ObjectShortName">back_value[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /start_value">
+      <obj_property name="ElementShortName">start_value[7:0]</obj_property>
+      <obj_property name="ObjectShortName">start_value[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /PATTERN_FOUNDED">
+      <obj_property name="ElementShortName">PATTERN_FOUNDED</obj_property>
+      <obj_property name="ObjectShortName">PATTERN_FOUNDED</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /_ram_addra">
+      <obj_property name="ElementShortName">_ram_addra[7:0]</obj_property>
+      <obj_property name="ObjectShortName">_ram_addra[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /_ram_dina">
+      <obj_property name="ElementShortName">_ram_dina[7:0]</obj_property>
+      <obj_property name="ObjectShortName">_ram_dina[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /_ram_wea">
+      <obj_property name="ElementShortName">_ram_wea</obj_property>
+      <obj_property name="ObjectShortName">_ram_wea</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /config_reg">
+      <obj_property name="ElementShortName">config_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">config_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /pattern_lenght">
+      <obj_property name="ElementShortName">pattern_lenght[16:0]</obj_property>
+      <obj_property name="ObjectShortName">pattern_lenght[16:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /engine_enabled">
+      <obj_property name="ElementShortName">engine_enabled</obj_property>
+      <obj_property name="ObjectShortName">engine_enabled</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /src_in_progress">
+      <obj_property name="ElementShortName">src_in_progress</obj_property>
+      <obj_property name="ObjectShortName">src_in_progress</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /sm_state">
+      <obj_property name="ElementShortName">sm_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sm_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /pattern_lenght_changed">
+      <obj_property name="ElementShortName">pattern_lenght_changed</obj_property>
+      <obj_property name="ObjectShortName">pattern_lenght_changed</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /ADDR_SIZE">
+      <obj_property name="ElementShortName">ADDR_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /TCQ">
+      <obj_property name="ElementShortName">TCQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TCQ[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /DATA_SIZE">
+      <obj_property name="ElementShortName">DATA_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /MEMORY_SIZE">
+      <obj_property name="ElementShortName">MEMORY_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMORY_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /MAX_PATTERN_LEN">
+      <obj_property name="ElementShortName">MAX_PATTERN_LEN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_PATTERN_LEN[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /START_ADDRESS">
+      <obj_property name="ElementShortName">START_ADDRESS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">START_ADDRESS[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /ADDRESS_INCREMENT">
+      <obj_property name="ElementShortName">ADDRESS_INCREMENT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDRESS_INCREMENT[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /config_regb0_addr">
+      <obj_property name="ElementShortName">config_regb0_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">config_regb0_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /config_regb1_addr">
+      <obj_property name="ElementShortName">config_regb1_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">config_regb1_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /config_regb2_addr">
+      <obj_property name="ElementShortName">config_regb2_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">config_regb2_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /config_regb3_addr">
+      <obj_property name="ElementShortName">config_regb3_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">config_regb3_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /start_val_addr">
+      <obj_property name="ElementShortName">start_val_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">start_val_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/\generate_engines[1].ENGINE_inst /SEARCH_PATTERN">
+      <obj_property name="ElementShortName">SEARCH_PATTERN[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SEARCH_PATTERN[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider783" type="divider">
+      <obj_property name="label">DMA_requests</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/DMA_inst/axis_aresetn">
+      <obj_property name="ElementShortName">axis_aresetn</obj_property>
+      <obj_property name="ObjectShortName">axis_aresetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/DMA_inst/axis_clk">
+      <obj_property name="ElementShortName">axis_clk</obj_property>
+      <obj_property name="ObjectShortName">axis_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/m_axis_data_tdata">
+      <obj_property name="ElementShortName">m_axis_data_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/m_axis_data_tkeep">
+      <obj_property name="ElementShortName">m_axis_data_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/DMA_inst/m_axis_data_tlast">
+      <obj_property name="ElementShortName">m_axis_data_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/DMA_inst/m_axis_data_tready">
+      <obj_property name="ElementShortName">m_axis_data_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/DMA_inst/m_axis_data_tvalid">
+      <obj_property name="ElementShortName">m_axis_data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/m_axis_sts_tdata">
+      <obj_property name="ElementShortName">m_axis_sts_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_sts_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/m_axis_sts_tkeep">
+      <obj_property name="ElementShortName">m_axis_sts_tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_sts_tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/DMA_inst/m_axis_sts_tlast">
+      <obj_property name="ElementShortName">m_axis_sts_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_sts_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/DMA_inst/m_axis_sts_tready">
+      <obj_property name="ElementShortName">m_axis_sts_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_sts_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/DMA_inst/m_axis_sts_tvalid">
+      <obj_property name="ElementShortName">m_axis_sts_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_sts_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/transactions">
+      <obj_property name="ElementShortName">transactions[17:0][447:0]</obj_property>
+      <obj_property name="ObjectShortName">transactions[17:0][447:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/data_to_send">
+      <obj_property name="ElementShortName">data_to_send[447:0]</obj_property>
+      <obj_property name="ObjectShortName">data_to_send[447:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/transaction_index">
+      <obj_property name="ElementShortName">transaction_index[7:0]</obj_property>
+      <obj_property name="ObjectShortName">transaction_index[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/bit_index">
+      <obj_property name="ElementShortName">bit_index[15:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_index[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/next_bit_index">
+      <obj_property name="ElementShortName">next_bit_index[15:0]</obj_property>
+      <obj_property name="ObjectShortName">next_bit_index[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/DMA_inst/sending_transaction">
+      <obj_property name="ElementShortName">sending_transaction</obj_property>
+      <obj_property name="ObjectShortName">sending_transaction</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/inter_trans_counter">
+      <obj_property name="ElementShortName">inter_trans_counter[4:0]</obj_property>
+      <obj_property name="ObjectShortName">inter_trans_counter[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/DMA_inst/status_sent">
+      <obj_property name="ElementShortName">status_sent</obj_property>
+      <obj_property name="ObjectShortName">status_sent</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/status_word_cnt">
+      <obj_property name="ElementShortName">status_word_cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">status_word_cnt[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/TCQ">
+      <obj_property name="ElementShortName">TCQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TCQ[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/AXI_DATA_WIDTH">
+      <obj_property name="ElementShortName">AXI_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/TRANSACTION_FILE">
+      <obj_property name="ElementShortName">TRANSACTION_FILE[95:0]</obj_property>
+      <obj_property name="ObjectShortName">TRANSACTION_FILE[95:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/TRANSACTIONS_NR">
+      <obj_property name="ElementShortName">TRANSACTIONS_NR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TRANSACTIONS_NR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/TRANSACTION_WIDTH">
+      <obj_property name="ElementShortName">TRANSACTION_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TRANSACTION_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/transaction_nr">
+      <obj_property name="ElementShortName">transaction_nr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">transaction_nr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/DMA_inst/transaction_width">
+      <obj_property name="ElementShortName">transaction_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">transaction_width[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/SLV_ADDR_SIZE">
+      <obj_property name="ElementShortName">SLV_ADDR_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLV_ADDR_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/SLV_STRB_SIZE">
+      <obj_property name="ElementShortName">SLV_STRB_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLV_STRB_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/SLV_DATA_SIZE">
+      <obj_property name="ElementShortName">SLV_DATA_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLV_DATA_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/AXI_LITE_DATA_BYTES">
+      <obj_property name="ElementShortName">AXI_LITE_DATA_BYTES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_LITE_DATA_BYTES[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/MEMORY_SIZE">
+      <obj_property name="ElementShortName">MEMORY_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMORY_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/MEMORY_WADDR_WIDTH">
+      <obj_property name="ElementShortName">MEMORY_WADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMORY_WADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/MEMORY_WADDR_INCR">
+      <obj_property name="ElementShortName">MEMORY_WADDR_INCR[8:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMORY_WADDR_INCR[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/MEMORY_RADDR_WIDTH">
+      <obj_property name="ElementShortName">MEMORY_RADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMORY_RADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/MEMORY_RADDR_INCR">
+      <obj_property name="ElementShortName">MEMORY_RADDR_INCR[10:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMORY_RADDR_INCR[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/ENG_NR_ADDR">
+      <obj_property name="ElementShortName">ENG_NR_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ENG_NR_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/ENG_AL_ADDR_SIZE">
+      <obj_property name="ElementShortName">ENG_AL_ADDR_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ENG_AL_ADDR_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/ENG_DATA_SIZE">
+      <obj_property name="ElementShortName">ENG_DATA_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ENG_DATA_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/PIC_inst/ENG_ADDR_SIZE">
+      <obj_property name="ElementShortName">ENG_ADDR_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ENG_ADDR_SIZE[31:0]</obj_property>
+   </wvobject>
+</wave_config>
